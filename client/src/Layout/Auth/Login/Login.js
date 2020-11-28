@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
 import './Login.css';
-import auth from 'src/firebase';
+import auth from './src/firebase';
 
 function Login() {
   const [email, setEmail] = useState('');
